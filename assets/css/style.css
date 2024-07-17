@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.icon-frame img{
+    width: 40px;
+}
+
+.icon-frame{
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #f0f3fe;
+    width: 70px;
+    height: 70px;
+}
+
+.destination-box{
+    height: 100%;
+}
+
+
+.shadow-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input:focus{
+    outline:none;
+}
+
+
+.section3 .card:hover{
+    cursor: pointer;
+    transform: scale(1.1) !important;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    
+}
+
+
